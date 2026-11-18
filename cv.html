@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Teresa Erandi Mejía Pascual</title>
+  <meta name="description" content="CV and skills of Teresa Erandi Mejía Pascual." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a class="nav__brand" href="index.html">Teresa<span>.</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section__title reveal">The Ledger</h1>
+      <p class="section__sub reveal">Academic and professional summary, and the tools I work with.</p>
+
+      <div style="margin-bottom:48px;" class="reveal">
+        <a class="btn btn--solid" href="assets/cv/teresa-mejia-cv.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+      </div>
+
+      <div class="grid">
+        <article class="card reveal">
+          <h3>Education</h3>
+          <p><strong>REPLACE — Degree / Program</strong><br />REPLACE — Institution · Year</p>
+          <p class="muted">Relevant coursework: REPLACE.</p>
+        </article>
+
+        <article class="card reveal">
+          <h3>Experience</h3>
+          <p><strong>REPLACE — Role</strong><br />REPLACE — Company · Year</p>
+          <p class="muted">One line on what you did and the impact.</p>
+        </article>
+      </div>
+
+      <h2 class="section__title reveal" style="margin-top:64px;font-size:1.6rem;">Skills</h2>
+      <div class="grid" style="margin-top:24px;">
+        <article class="card reveal">
+          <h3>Backend</h3>
+          <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">REST APIs</span><span class="tag">Maven</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>Frontend</h3>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">REPLACE</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>Database</h3>
+          <div class="tags"><span class="tag">SQL</span><span class="tag">MySQL</span><span class="tag">PostgreSQL</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>Tools</h3>
+          <div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">IntelliJ IDEA</span><span class="tag">VS Code</span></div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Teresa Erandi Mejía Pascual</div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fireflies.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

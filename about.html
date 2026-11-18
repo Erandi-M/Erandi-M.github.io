@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Teresa Erandi Mejía Pascual</title>
+  <meta name="description" content="About Teresa Erandi Mejía Pascual, Java Full Stack developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a class="nav__brand" href="index.html">Teresa<span>.</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section__title reveal">The Path</h1>
+      <p class="section__sub reveal">A little about who I am and how I got here.</p>
+
+      <div class="grid">
+        <article class="card reveal">
+          <h3>Who I am</h3>
+          <p>I'm a developer who learns by building and teaches by sharing. My curiosity runs wide — open source, side projects, mentoring — and my ADHD means I notice details others miss. I care about clean architecture, readable code, and systems that feel considered.</p>
+        </article>
+
+        <article class="card reveal">
+          <h3>What I value</h3>
+          <p>Teaching, open source, and building in public are not separate from being a developer for me — they're how I get better. I'd rather ship an imperfect thing and learn from it than wait until it's perfect and never share it.</p>
+        </article>
+
+        <article class="card reveal">
+          <h3>Where I'm going</h3>
+          <p>I'm looking for a team where I can contribute as a Java Full Stack developer, keep learning from experienced engineers, and bring my range and detail-orientation to real products.</p>
+        </article>
+      </div>
+
+      <div class="lantern" style="margin-top:40px;">
+        <span class="lantern__dot"></span>
+        <span>currently exploring&nbsp;</span>
+        <span class="lantern__text">open source contributions</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Teresa Erandi Mejía Pascual</div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fireflies.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

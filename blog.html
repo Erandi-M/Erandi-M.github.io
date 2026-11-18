@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Teresa Erandi Mejía Pascual</title>
+  <meta name="description" content="Field notes and reflections by Teresa Erandi Mejía Pascual." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a class="nav__brand" href="index.html">Teresa<span>.</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section__title reveal">Field Notes</h1>
+      <p class="section__sub reveal">Reflections and notes on learning, teaching, and building in the open.</p>
+
+      <article class="card reveal" style="max-width:760px;">
+        <p class="mono muted" style="margin-bottom:8px;">REPLACE — Month Year · reflection</p>
+        <h2 style="font-size:1.7rem;margin-bottom:16px;">Why I Build in the Open</h2>
+        <p>When I started learning Java, I thought the goal was to know everything before showing anything. Open source taught me the opposite. The first time I opened a pull request, I was terrified someone would see how much I didn't know. Instead, a maintainer left a kind comment, fixed my formatting, and merged it.</p>
+        <p style="margin-top:16px;">That moment changed how I learn: I stopped waiting to be ready. Now I build side projects in public, write notes when I figure something out, and treat every bug as a lesson worth sharing. Teaching and open source aren't separate from being a developer for me — they're how I get better at it.</p>
+        <p style="margin-top:16px;">If you're starting out too: ship the imperfect thing. Someone out there needs to see that it's possible.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Teresa Erandi Mejía Pascual</div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fireflies.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

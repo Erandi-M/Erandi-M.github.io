@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Teresa Erandi Mejía Pascual</title>
+  <meta name="description" content="Projects by Teresa Erandi Mejía Pascual, Java Full Stack developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a class="nav__brand" href="index.html">Teresa<span>.</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section__title reveal">The Archive</h1>
+      <p class="section__sub reveal">Things I've built — side projects, coursework, and open-source work. Each one taught me something worth keeping.</p>
+
+      <div class="grid">
+        <!-- REPLACE each card with your real projects -->
+        <article class="card reveal">
+          <div class="tags">
+            <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">PostgreSQL</span>
+          </div>
+          <h3>Project Name</h3>
+          <p>One line on what it does and the problem it solves. Then one line on your role.</p>
+          <div class="card__links">
+            <a href="REPLACE-live-url" target="_blank" rel="noopener">Live →</a>
+            <a href="https://github.com/Erandi-M/REPLACE-repo" target="_blank" rel="noopener">Repo →</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="tags">
+            <span class="tag">JavaScript</span><span class="tag">REST API</span>
+          </div>
+          <h3>Project Name</h3>
+          <p>One line on what it does and the problem it solves. Then one line on your role.</p>
+          <div class="card__links">
+            <a href="REPLACE-live-url" target="_blank" rel="noopener">Live →</a>
+            <a href="https://github.com/Erandi-M/REPLACE-repo" target="_blank" rel="noopener">Repo →</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="tags">
+            <span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">HTML/CSS</span>
+          </div>
+          <h3>Project Name</h3>
+          <p>One line on what it does and the problem it solves. Then one line on your role.</p>
+          <div class="card__links">
+            <a href="https://github.com/Erandi-M/REPLACE-repo" target="_blank" rel="noopener">Repo →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Teresa Erandi Mejía Pascual</div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fireflies.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
